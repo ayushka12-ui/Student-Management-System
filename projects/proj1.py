@@ -66,6 +66,7 @@ def delete(students):
                students.remove(student)
                print("Student deleted successfully!")
                found = True
+               break
      if not found:
                print("STUDENT NOT FOUND")
 
